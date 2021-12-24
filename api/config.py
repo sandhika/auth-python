@@ -14,6 +14,6 @@ class BaseConfig():
 
     SQLALCHEMY_DATABASE_URI = 'sqlite:///' + os.path.join(BASE_DIR, 'apidata.db')
     SQLALCHEMY_TRACK_MODIFICATIONS = False
-    SECRET_KEY = "flask-app-secret-key-change-it"
-    JWT_SECRET_KEY = "jwt-app-secret-key-change-it"
+    SECRET_KEY = "tDQtkqdBMH83nncOGbfh90MADMADtw66"
+    JWT_SECRET_KEY = "tDQtkqdBMH83nncOGbfh90MADMADtw66"
     JWT_ACCESS_TOKEN_EXPIRES = timedelta(hours=1)
